@@ -1,0 +1,8 @@
+name: ExperienceBeta
+version: 1.0
+main: betaaccess.michaeldev.MichaelDev
+authors: [MichaelDevC]
+description: A Minecraft plugin to add Beta capabilities to your server!
+commands:
+  ba:
+    description: A Minecraft plugin to add Beta capabilities to your server!

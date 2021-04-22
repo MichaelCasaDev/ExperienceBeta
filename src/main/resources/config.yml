@@ -1,0 +1,61 @@
+#Beta Access System By MichaelDevC
+#For Galaxy Prison
+#Ver 1.0.0
+#List all avaiable commands --> /ba
+
+#When logged (after /ba access <correct_key>) the player will be teleport to the world spawn
+#If the player fail X (configure under this config at value 'KeyFailureMaxTimes') times the key will be kick out of the server
+
+
+###############
+#Dependencies
+###############
+
+#To work this plugin require:
+# -Advanced Bans
+# -Essential Spawn
+
+
+###############
+#Permissions
+###############
+
+#To bypass the key method add permission [ba.bypass]
+#To reload this plugin config check to have the permission [ba.reload]
+#To set the spawn of beta access [ba.setspawn]
+
+###############
+#Access System
+###############
+
+Reload_Message: "&3[Beta System] &f Plugin Config file reloaded!"
+ReloadNoPerms: "&3[Beta System] &f You don't have the permission to do that!"
+
+WelcomeBetaAccessMessage: "&3[Beta System] &f Welcome to the Server Logged correctly!"
+KeyNotValid: "&3[Beta System] &f The key you provided isn't valid"
+
+Access_NoKey: "&3[Beta System] &f Any key was provided! Use /ba access <key>"
+
+AccessWelcomeMessage: "&3[Beta System] &f Welcome to the server!"
+
+AccessBypass: "&3[Beta System] &f You can join without a Beta Key"
+AccessBypass_Failed: "&3[Beta System] &f Need to execute /ba access <key>"
+
+SpawnSetOK: "&3[Beta System] &f Spawn set!"
+SpawnSetERROR: "&3[Beta System] &f You don't have the permission to do that!"
+NoSpawnFound: "&3[Beta System] &f First need to create a spawn with /ba setspawn"
+TeleportingToSpawn: "&3[Beta System] &f Teleporting..."
+
+HelpNoPermission: "&3[Beta System] &f You don't have the permission to do that!"
+SpawnNoPermission: "&3[Beta System] &f You don't have the permission to do that!"
+
+PlayerKeyExcedKickMessage: "You get kicked! Failed the key for too much times!"
+KeyFailureMaXTimes: 5
+
+###############
+#Keys
+###############
+
+# Suggest - Generate keys here --> https://www.browserling.com/tools/random-hex
+# Player Name: Key
+# Aepuova: "132db0bf90fe9f3a546347d8c5e567f0"
